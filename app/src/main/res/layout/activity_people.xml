@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="People Information"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/person_name_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Person Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/contact_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number or Email"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/person_amount_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Amount for this person"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/add_person_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Person"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="People Added"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/people_list_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No people added yet."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/finish_people_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continue to Summary" />
+
+    </LinearLayout>
+
+</ScrollView>

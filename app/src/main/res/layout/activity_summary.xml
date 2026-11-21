@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Split Bill Summary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:id="@+id/restaurant_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restaurant:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/bill_total_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill Total:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tax_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tax:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/tip_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tip:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/final_total_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final Total:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/people_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of People:"
+            android:textSize="18sp"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/per_person_result_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Each Person Owes:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="People Added"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/people_list_result_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No people added."
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Send" />
+
+    </LinearLayout>
+
+</ScrollView>

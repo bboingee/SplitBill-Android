@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/title_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split Bill"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/description_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split restaurant bills easily and check gratuity before tipping."
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/split_bill_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Split a Bill"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/previous_bills_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Bills" />
+
+</LinearLayout>
